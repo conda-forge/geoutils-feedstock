@@ -1,15 +1,14 @@
 {% set name = "geoutils" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 
 {% set github_url = "https://github.com/GlacioHack/GeoUtils" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
-  
+  name: {{ name|lower }}
+  version: {{ version }}
 source:
-  url: "{{ github_url }}/archive/refs/tags/v{{ version }}.tar.gz"
-  sha256: "7efde1a137978754d847370b2fbd7b458bd404cad3c265f4fc9ba4fba8891cfd"
+  url: {{ github_url }}/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 0b068321d003617298dd755658cf3c8fe9ddb1683eb7f17284048009933aed17
 
 build:
   number: 0
@@ -41,10 +40,10 @@ test:
     - geoutils
 
 about:
-  home: "{{ github_url }}"
-  license: "BSD-3-Clause"
+  home: {{ github_url }}
+  license: BSD-3-Clause
   license_file: LICENSE
-  summary: "Set of tools to handle raster and vector data sets in Python."
+  summary: Set of tools to handle raster and vector data sets in Python.
 
 extra:
   recipe-maintainers:
