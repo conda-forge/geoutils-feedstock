@@ -1,5 +1,5 @@
 {% set name = "geoutils" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.5" %}
 
 {% set github_url = "https://github.com/GlacioHack/GeoUtils" %}
 
