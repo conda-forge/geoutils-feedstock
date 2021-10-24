@@ -4,5 +4,3 @@
 
 jobs:
   - template: ./.azure-pipelines/azure-pipelines-linux.yml
-pool:
-  vmImage: ubuntu-latest
