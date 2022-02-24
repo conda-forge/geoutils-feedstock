@@ -26,6 +26,7 @@ requirements:
     - matplotlib-base
     - scipy
     - tqdm
+    - glibc
   run:
     - python >=3.7
     - pip
@@ -36,6 +37,7 @@ requirements:
     - matplotlib-base
     - scipy
     - tqdm
+    - glibc
 
 test:
   imports:
