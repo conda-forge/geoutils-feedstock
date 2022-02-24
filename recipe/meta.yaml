@@ -19,14 +19,14 @@ requirements:
   host:
     - python >=3.7
     - pip
-    - numpy
-    - geopandas
-    - pyproj
-    - rasterio
-    - matplotlib-base
-    - scipy
-    - tqdm
-    - glibc
+      #    - numpy
+      #- geopandas
+      #- pyproj
+      #- rasterio
+      #- matplotlib-base
+      #- scipy
+      #- tqdm
+      #- glibc
   run:
     - python >=3.7
     - pip
@@ -37,7 +37,6 @@ requirements:
     - matplotlib-base
     - scipy
     - tqdm
-    - glibc
 
 test:
   imports:
