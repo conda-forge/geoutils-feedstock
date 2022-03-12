@@ -4,6 +4,7 @@ github:
   # name of the github organization
   user_or_org: GlacioHack
   # repository name, usually filled in automatically
-  repo_name: "GeoUtils"
+  repo_name: GeoUtils
   # branch name to execute on
   branch_name: main
+  tooling_branch_name: main
