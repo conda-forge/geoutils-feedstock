@@ -1,7 +1,7 @@
 About GeoUtils
 ==============
 
-Home: https://github.com/GlacioHack/geoytils
+Home: https://github.com/GlacioHack/geoutils
 
 Package license: BSD-3-Clause
 
