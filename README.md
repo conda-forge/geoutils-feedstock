@@ -1,11 +1,11 @@
-About geoutils
+About GeoUtils
 ==============
 
-Home: https://github.com/GlacioHack/GeoUtils
+Home: https://github.com/GlacioHack/geoutils
 
 Package license: BSD-3-Clause
 
-Feedstock license: [BSD-3-Clause](https://github.com/GlacioHack/GeoUtils/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/GlacioHack/geoutils/blob/main/LICENSE.txt)
 
 Summary: Set of tools to handle raster and vector data sets in Python.
 
@@ -16,7 +16,7 @@ Current build status
 <table><tr><td>All platforms:</td>
     <td>
       <a href="https://dev.azure.com/GlacioHack/feedstock-builds/_build/latest?definitionId=&branchName=main">
-        <img src="https://dev.azure.com/GlacioHack/feedstock-builds/_apis/build/status/GeoUtils?branchName=main">
+        <img src="https://dev.azure.com/GlacioHack/feedstock-builds/_apis/build/status/geoutils?branchName=main">
       </a>
     </td>
   </tr>
