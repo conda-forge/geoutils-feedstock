@@ -16,7 +16,6 @@ build:
   noarch: python
 
 requirements:
-  channels: conda-forge
   host:
     - python >=3.8
     - pip
