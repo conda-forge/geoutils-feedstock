@@ -11,7 +11,7 @@ source:
   sha256: d297a523b59edc0f3afb06d63edc03a52038fc1aa222db9013eba19859bc6817
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
@@ -23,7 +23,7 @@ requirements:
     - python >=3.8
     - pip
     - numpy
-    - geopandas >=0.10.0
+    - geopandas >=0.12.0
     - pyproj
     - rasterio >=1.3.0
     - matplotlib-base
