@@ -1,5 +1,5 @@
 {% set name = "geoutils" %}
-{% set version = "0.0.14" %}
+{% set version = "0.0.15-pre" %}
 
 {% set github_url = "https://github.com/GlacioHack/geoutils" %}
 
@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 source:
   url: {{ github_url }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: e8c9d8b49a99ac4678876573dc756a5852c3375953329941e3864e72a201da78
+  sha256: 430b976e71b04dbb60d51fec73fb5defbcc4c6a61e949bba4b2cc0990d0bea32
 
 build:
   number: 0
