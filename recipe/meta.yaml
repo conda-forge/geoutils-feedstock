@@ -2,7 +2,7 @@
 {% set version = "0.0.14" %}
 
 #{% set github_url = "https://github.com/GlacioHack/geoutils" %}
-{% set pipy_url = "https://pypi.io/packages/source/" %}
+{% set pypi_url = "https://pypi.io/packages/source/" %}
 
 package:
   name: {{ name|lower }}
