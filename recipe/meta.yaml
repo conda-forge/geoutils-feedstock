@@ -10,7 +10,7 @@ package:
 source:
   url: {{ pypi_url }}/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   # url: {{ github_url }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 430b976e71b04dbb60d51fec73fb5defbcc4c6a61e949bba4b2cc0990d0bea32
+  sha256: a920ebe2ef97e574c9870a66e831242fa394dc598d6d30a45d98c99d568a612a
 
 build:
   number: 0
