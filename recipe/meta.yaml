@@ -9,8 +9,8 @@ package:
   version: {{ version }}
 source:
    # url: {{ pypi_url }}/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  url: {{ github_url }}/archive/refs/tags/v{{ version }}-pre.tar.gz
-  sha256: 430b976e71b04dbb60d51fec73fb5defbcc4c6a61e949bba4b2cc0990d0bea32
+  url: {{ github_url }}/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: e9f9a1aad33358e97e2a681d5afc6de96446514c90d70dba20d0d6516569e32c
 
 build:
   number: 0
