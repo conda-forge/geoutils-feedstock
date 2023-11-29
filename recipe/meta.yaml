@@ -1,5 +1,5 @@
 {% set name = "geoutils" %}
-{% set version = "0.0.15" %}
+{% set version = "0.0.16" %}
 
 {% set github_url = "https://github.com/GlacioHack/geoutils" %}
 #{% set pypi_url = "https://pypi.io/packages/source/" %}
@@ -10,7 +10,7 @@ package:
 source:
    # url: {{ pypi_url }}/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   url: {{ github_url }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: e9f9a1aad33358e97e2a681d5afc6de96446514c90d70dba20d0d6516569e32c
+  sha256: 24eaf80c956b562739c85d141f544014a34871b614d9396ad0239bd0b38238c6
 
 build:
   number: 0
