@@ -1,5 +1,5 @@
 {% set name = "geoutils" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 {% set github_url = "https://github.com/GlacioHack/geoutils" %}
 #{% set pypi_url = "https://pypi.io/packages/source/" %}
@@ -10,7 +10,7 @@ package:
 source:
    # url: {{ pypi_url }}/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   url: {{ github_url }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: c976158f508772d5df086c72dbcbc2b3faf1c17dca1b8289d0caa6f7086b1883
+  sha256: 0f738c4b0045ff78eae94d0706b9d8bf727da2b7ae6556331fc67b2524787071
 
 build:
   number: 0
@@ -29,14 +29,14 @@ requirements:
     - setuptools_scm
     - wheel
   run:
-    - python >=3.9,<3.12
     - pip
-    - numpy =1.*
-    - pandas >=1,<3
+    - python >=3.9,<3.12
     - geopandas >=0.12.0
+    - matplotlib-base =3.*
     - pyproj =3.*
     - rasterio >=1.3,<2
-    - matplotlib-base =3.*
+    - pandas >=1,<3
+    - numpy =1.*
     - scipy =1.*
     - tqdm
     - xarray
