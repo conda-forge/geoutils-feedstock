@@ -1,5 +1,5 @@
 {% set name = "geoutils" %}
-{% set version = "0.1.9" %}
+{% set version = "0.1.10" %}
 
 {% set github_url = "https://github.com/GlacioHack/geoutils" %}
 #{% set pypi_url = "https://pypi.io/packages/source/" %}
@@ -10,7 +10,7 @@ package:
 source:
    # url: {{ pypi_url }}/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   url: {{ github_url }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 909a48568bb89c415a76b88392f889f1d58b39b4163a2ba4e3c2fa944d37f1af
+  sha256: 7cef22c9bf7b96102c0a535d8e802ab0027c74e9adc121915283a53cd32e8935
 
 build:
   number: 0
@@ -23,14 +23,14 @@ build:
 
 requirements:
   host:
-    - python >=3.9,<3.12
+    - python >=3.10,<3.13
     - pip
     - setuptools
     - setuptools_scm
     - wheel
   run:
     - pip
-    - python >=3.9,<3.12
+    - python >=3.10,<3.13
     - geopandas >=0.12.0
     - matplotlib-base =3.*
     - pyproj =3.*
