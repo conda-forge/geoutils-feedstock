@@ -1,5 +1,5 @@
 {% set name = "geoutils" %}
-{% set version = "0.1.11" %}
+{% set version = "0.1.12pre" %}
 
 {% set github_url = "https://github.com/GlacioHack/geoutils" %}
 #{% set pypi_url = "https://pypi.io/packages/source/" %}
@@ -10,7 +10,7 @@ package:
 source:
    # url: {{ pypi_url }}/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   url: {{ github_url }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 188d8325c87b1f9b5af3cdd4b90ad87366e258dd2a3cd71cfe4f51a50b441044
+  sha256: 2441b996653e4103f6b0835178537b0dc5c4baed51b720f665d73fc56b2376b9
 
 build:
   number: 0
@@ -51,7 +51,7 @@ about:
   home: {{ github_url }}
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: Analysis of georeferenced rasters and vectors
+  summary: Analysis of georeferenced rasters, vectors and point clouds
 
 extra:
   recipe-maintainers:
