@@ -7,7 +7,7 @@ Home: https://github.com/GlacioHack/geoutils
 
 Package license: BSD-3-Clause
 
-Summary: Analysis of georeferenced rasters and vectors
+Summary: Analysis of georeferenced rasters, vectors and point clouds
 
 Current build status
 ====================
