@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geoutils-feedst
 
 Home: https://github.com/GlacioHack/geoutils
 
-Package license: BSD-3-Clause
+Package license: Apache-2.0
 
 Summary: Analysis of georeferenced rasters, vectors and point clouds
 
