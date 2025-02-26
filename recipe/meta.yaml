@@ -52,7 +52,7 @@ test:
 
 about:
   home: {{ github_url }}
-  license: BSD-3-Clause
+  license: Apache-2.0
   license_file: LICENSE
   summary: Analysis of georeferenced rasters, vectors and point clouds
 
