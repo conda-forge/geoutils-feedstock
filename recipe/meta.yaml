@@ -1,7 +1,7 @@
 {% set pypi_url = "https://pypi.io/packages/source/" %}
 {% set python_min = "3.10" %}
 {% set name = "geoutils" %}
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 
 {% set github_url = "https://github.com/GlacioHack/geoutils" %}
 #{% set pypi_url = "https://pypi.io/packages/source/" %}
@@ -12,7 +12,7 @@ package:
 source:
    # url: {{ pypi_url }}/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   url: {{ github_url }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 5e6ff9de62f5625adb16f6fb66cee9c8ca1f64028079b6b4989d3dde1d8fd2d7
+  sha256: f6420637d086893331c0bab90ef34f07252657e17c827547a64b88ae2ee794cb
 
 build:
   number: 0
